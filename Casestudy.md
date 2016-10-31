@@ -1,4 +1,14 @@
 ---
+title: "CasestudyMD"
+author: "Bama Parthasarathy"
+date: "October 31, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+---
 title: "Casestudy"
 author: "Bama Parthasarathy"
 date: "October 31, 2016"
@@ -176,7 +186,7 @@ ggplot(data=dataplot, aes(x=USDinM,y=CountryCode, color=Income.Group))+geom_poin
 
 ```
 
-![](Plots/ggplot.png)<!-- -->
+
 
 Interpretation of the Plot: United States of America was by far the country with the highest Gross Domestic. 
 
